@@ -1,0 +1,148 @@
+body{
+    background-color: #1B1F27;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-cadastro{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro{
+    display: flex;
+    background-color: #181920;
+    align-items: center;
+    flex-direction: column;
+    width: 25vw;
+    height: 35vw;
+    padding: 3vw;
+    border-radius: 1vw;
+}
+
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cadastro input{
+    margin-top: 1.5vw;
+    background-color: #252A34;
+    border: none;
+    height: 3.5vw;
+    outline: none;
+    color:#CBD0F7;
+    padding-left: 2.5vw;
+    
+}
+
+.cadastro img{
+    width: 8vw;
+    height: auto;
+    border-radius: 20vw;
+}
+
+input::placeholder{
+    font-size: 1vw;
+    background-color: transparent;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #5568FE;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5vw;
+    border-radius: 1vw;
+    padding-left: 0;
+}
+
+form [type="submit"]:hover{
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+p{
+    color: #CBD0F7;
+    font-size: 1.1vw;
+}
+
+a{
+    color: #5568FE;
+    text-decoration: none;
+    margin-left: 1vw;
+}
+input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 0.1vw solid rgb(113, 113, 113);
+    transition: border-bottom-color 0.3s;
+    height: 2vw;
+  }
+  
+  input[type="text"]:hover {
+    border-bottom-color: #f00;
+  }
+  
+  input[type="text"]:focus {
+    border-bottom-color: #5568FE;
+  }
+  
+  input[type="e-mail"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 0.1vw solid rgb(113, 113, 113);
+    transition: border-bottom-color 0.3s;
+    height: 2vw;
+  }
+  
+  input[type="e-mail"]:hover {
+    border-bottom-color: #f00;
+  }
+  
+  input[type="e-mail"]:focus {
+    border-bottom-color: #5568FE;
+  }
+  input[type="password"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 0.1vw solid rgb(113, 113, 113);
+    transition: border-bottom-color 0.3s;
+    height: 2vw;
+  }
+  
+  input[type="password"]:hover {
+    border-bottom-color: #f00;
+  }
+  
+  input[type="password"]:focus {
+    border-bottom-color: #5568FE;
+  }
+ label{
+    position: absolute;
+    margin-top: 1.8vw;
+    color: rgb(113, 113, 113);
+    font-size: 1.2vw;
+ }
+
+ form label[for=email]{
+    position: absolute;
+    margin-top: 5.5vw;
+    color: rgb(113, 113, 113);
+    font-size: 1.2vw;
+ }
+
+ form label[for=password]{
+    position: absolute;
+    margin-top: 9.1vw;
+    color: rgb(113, 113, 113);
+    font-size: 1.2vw;
+ }
